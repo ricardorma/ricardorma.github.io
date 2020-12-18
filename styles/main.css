@@ -3484,7 +3484,7 @@ body {
 }
 
 .dropdown-menu.dropdown-primary:before {
-  color: #33813a;
+  color: #5bc0de;
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -7096,7 +7096,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(88, 87, 177, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
