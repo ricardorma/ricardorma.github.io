@@ -2490,8 +2490,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .checkbox-success input[type="checkbox"]:checked + label::before {
-  background-color: #5cb85c;
-  border-color: #5cb85c;
+  background-color: #5bc0de;
+  border-color: #5bc0de;
 }
 
 .checkbox-success input[type="checkbox"]:checked + label::after {
