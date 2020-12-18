@@ -1497,16 +1497,16 @@ pre code {
 .table-success,
 .table-success>td,
 .table-success>th {
-    background-color: #c3e6cb
+    background-color: #4157d8
 }
 
 .table-hover .table-success:hover {
-    background-color: #b1dfbb
+    background-color: #4157d8
 }
 
 .table-hover .table-success:hover>td,
 .table-hover .table-success:hover>th {
-    background-color: #b1dfbb
+    background-color: #4157d8
 }
 
 .table-info,
@@ -1873,7 +1873,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-control.is-valid,
 .was-validated .custom-select:valid,
 .was-validated .form-control:valid {
-    border-color: #28a745
+    border-color: #4157d8
 }
 
 .custom-select.is-valid:focus,
@@ -1896,7 +1896,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-check-input.is-valid+.form-check-label,
 .was-validated .form-check-input:valid+.form-check-label {
-    color: #28a745
+    color: #4157d8
 }
 
 .custom-control-input.is-valid~.custom-control-indicator,
@@ -1906,12 +1906,12 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .custom-control-input.is-valid~.custom-control-description,
 .was-validated .custom-control-input:valid~.custom-control-description {
-    color: #28a745
+    color: #4157d8
 }
 
 .custom-file-input.is-valid~.custom-file-control,
 .was-validated .custom-file-input:valid~.custom-file-control {
-    border-color: #28a745
+    border-color: #4157d8
 }
 
 .custom-file-input.is-valid~.custom-file-control::before,
