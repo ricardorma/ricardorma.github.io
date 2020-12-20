@@ -8292,7 +8292,8 @@ a.bg-dark:hover {
 }
 
 .text-center {
-    text-align: center!important
+    text-align: center!important;
+    justify-content: space-evenly;
 }
 
 @media (min-width:576px) {
