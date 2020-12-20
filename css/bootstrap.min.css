@@ -3666,7 +3666,8 @@ tbody.collapse.show {
     }
     .navbar-expand-lg .navbar-collapse {
         display: -ms-flexbox!important;
-        display: flex!important
+        display: flex!important;
+        justify-content: end;
     }
     .navbar-expand-lg .navbar-toggler {
         display: none
