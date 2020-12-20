@@ -2578,7 +2578,7 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .progress-container .progress .progress-value {
   position: absolute;
-  top: 2px;
+  top: 8px;
   right: 0;
   color: #888;
   font-size: 0.8571em;
