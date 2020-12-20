@@ -3371,6 +3371,7 @@ body {
           box-shadow: none;
   color: #FFFFFF;
   padding-top: 20px;
+  text-align: center;
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item) {
