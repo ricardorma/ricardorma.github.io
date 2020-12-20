@@ -3661,7 +3661,8 @@ tbody.collapse.show {
     .navbar-expand-lg>.container,
     .navbar-expand-lg>.container-fluid {
         -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap
+        flex-wrap: nowrap;
+        margin: inherit;
     }
     .navbar-expand-lg .navbar-collapse {
         display: -ms-flexbox!important;
