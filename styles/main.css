@@ -149,6 +149,7 @@
 
 p.caratula {
   text-align: center;
+  margin-top: 5cm;
 }
 
 .bootstrap-switch.bootstrap-switch-on:hover .bootstrap-switch-label {
