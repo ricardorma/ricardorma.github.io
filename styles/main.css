@@ -147,6 +147,10 @@
   background-color: rgba(23, 23, 23, 0.4);
 }
 
+.caratula {
+  text-align: center;
+}
+
 .bootstrap-switch.bootstrap-switch-on:hover .bootstrap-switch-label {
   width: 27px !important;
   margin-left: -16px;
