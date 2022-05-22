@@ -39,7 +39,7 @@
 .reproductor {
     position: relative;
     width: 50em;
-    height: 30em;
+    height: 40em;
     background: #000;
     overflow: hidden;
 }
@@ -50,8 +50,7 @@ video {
 }
 
 .vid::cue{
-    background-color: transparent;
-    color: #FFF;
+    color: rgb(255, 0, 0);
     font-size: 32px;
     font-family: "Lobster", cursive;
 }
