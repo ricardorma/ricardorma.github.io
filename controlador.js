@@ -28,7 +28,6 @@ for (let i in playlist) {
 var vidNow = 0;
 vidStart = false;
  
-// (B2) PLAY SELECTED VIDEO
 vidPlay = (idx, nostart) => {
   vidNow= idx;
   vidStart = nostart ? false : true;
