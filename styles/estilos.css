@@ -49,7 +49,7 @@ video {
     height: 100%;
 }
 
-video::cue{
+.vid::cue{
     color: rgb(255, 0, 0);
     font-size: 32px;
     font-family: "Lobster", cursive;

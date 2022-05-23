@@ -11,23 +11,22 @@ var normal = document.getElementById('normal');
 var reducir = document.getElementById('reducir');
 var playlistLista = document.querySelector(".playlist");
 
-    var playlist = [
-        {name: "Video 1 - Cancion", src: "./videos/video1.mp4"},
-        {name: "Video 2 - El Mundo", src: "./videos/video2.mp4"},
-        {name: "Video 3 - Luces", src: "./videos/video3.mp4"}
-      ];
+var playlist = [
+  {name: "Video 1 - Cancion", src: "./videos/video1.mp4"},
+  {name: "Video 2 - El Mundo", src: "./videos/video2.mp4"},
+  {name: "Video 3 - Luces", src: "./videos/video3.mp4"}
+];
     
-    for (let i in playlist) {
-        let row = document.createElement("div");
-        row.className = "vRow";
-        row.innerHTML = playlist[i]["name"];
-        row.addEventListener("click", () => { vidPlay(i); });
-        playlist[i]["row"] = row;
-        playlistLista.appendChild(row);
-      }
-
-      var vidNow = 0, // current video
-    vidStart = false, // auto start next video
+for (let i in playlist) {
+    let row = document.createElement("div");
+    row.className = "vRow";
+    row.innerHTML = playlist[i]["name"];
+    row.addEventListener("click", () => { vidPlay(i); });
+    playlist[i]["row"] = row;
+    playlistLista.appendChild(row);
+}
+var vidNow = 0;
+vidStart = false;
  
 // (B2) PLAY SELECTED VIDEO
 vidPlay = (idx, nostart) => {
@@ -35,8 +34,10 @@ vidPlay = (idx, nostart) => {
   vidStart = nostart ? false : true;
   video.src = playlist[idx]["src"];
   for (let i in playlist) {
-    if (i == idx) { playlist[i]["row"].classList.add("now"); }
-    else { playlist[i]["row"].classList.remove("now"); }
+    if (i == idx) { 
+      playlist[i]["row"].classList.add("now"); 
+    } else { playlist[i]["row"].classList.remove("now"); 
+    }
   }
   btnPlay.firstChild.data = "play_circle";
 };
